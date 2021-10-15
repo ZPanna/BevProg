@@ -38,7 +38,7 @@ try{
         //(17) int x = 2000; char c = x; if (c==2000) cout << "Success!\n";
         int x = 2000; int c3 = x; if (c3==2000) cout << " (17) Success!\n";
         //(18) string s = "Success!\n"; for (int i=0; i<10; ++i) cout << s[i];
-        string s6 = " (18) Success!\n"; for (int i=0; i<1; ++i) cout << s6;
+        string s6 = " (18) Success!\n"; for (int i=0; i<10; ++i); cout << s6;
         //(19) vector v(5); for (int i=0; i<=v.size(); ++i) ; cout << "Success!\n";
         vector<int> v5(5); for (int i=0; i<=v5.size(); ++i); cout<< " (19) Success!\n";
         //(20) int i=0; int j = 9; while (i<10) ++j; if (j<i) cout << "Success!\n";
